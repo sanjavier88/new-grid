@@ -1,0 +1,31 @@
+.transactions {
+  block-size: 850px;
+  background-image:  url(../images/fondo-matica.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.transactions-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-inline-start: 30px;
+}
+
+.transactions-cabecera {
+  font: var(--headline2);
+  margin-block-end: 24px;
+  margin-inline-start: 30px;
+}
+
+.transactions-parragra {
+  font: var(--body1-regular);
+  color: var(--grey);
+  margin-block-end: 124px;
+  margin-inline-start: 30px;
+}
+
+.transactions-phone {
+  display: none;
+}
