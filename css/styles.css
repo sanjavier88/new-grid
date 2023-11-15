@@ -5,6 +5,11 @@
 @import './sticky.css';
 @import './header.css';
 @import './button.css';
+@import './smile.css';
+@import './charts.css';
+@import './modal.css';
+@import 'footer.css';
+
 
 .wrapper {
   max-inline-size: 1000px;
@@ -19,7 +24,7 @@ body {
 
 section {
   block-size: 500px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 :root {
@@ -211,6 +216,117 @@ section {
     max-block-size: 100%;
   }
 
+  .why {
+    block-size: auto;
+  }
+
+  .why-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .why-cabecera {
+    margin-block-start: 64px;
+  }
+  .why-phone {
+    block-size: 500px;
+    inline-size: 264px;
+    display: flex;
+    margin-block-end: 57px;
+  }
+
+  .why-phone img {
+    block-size: 100%;
+  }
+  
+  .why .slider {
+    /* border: 1px solid red; */
+   margin-inline-start: 30px;
+   margin-block-end: 64px;
+   
+  }
+
+  .smile {
+    block-size: auto;
+    margin-block-start: none;
+  }
+
+  .smile-content {
+    display: none;
+    margin-block-start: 64px;
+  }
+
+  .smile-content-tow {
+    display: block;
+    text-align: center;
+    margin-inline:30px;
+  }
+
+  .smile-content-tow img {
+    margin-block-start: 56px;
+    margin-block-end: 64px;
+  }
+
+  .charts {
+    block-size: auto;
+  }
+
+  .charts .charts-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 152px;
+    padding-block-end: 200px;
+  }
+
+  .charts-items-cuarto {
+    display: block;
+    text-align: center;
+    block-size: 439px;
+    inline-size: 427px;
+    border-radius: 8px;
+    background: var(--white);
+}
+
+.charts-items-cuarto img {
+  margin-block-start: -50px;
+}
+
+.modal {
+  /* border: 1px solid red; */
+  padding-inline: 20px;
+
+}
+
+.modal-content{
+margin-block-start: -10%;
+}
+
+.footer {
+    
+  display: flex;
+  flex-direction: column;
+  block-size: auto;
+}
+
+.footer p {
+  margin-inline-start: 64px;
+}
+
+.footer h2 {
+  margin-block-start: 64px;
+}
+
+.footer h3 {
+  margin-inline-start: 64px;
+}
+
+.footer-content-items {
+ margin-block-end: 128px;
+}
+  
 
 }
 

@@ -1,0 +1,33 @@
+.smile {
+    block-size: 900px; 
+}
+
+.smile-content-tow {
+    display: none;
+}
+
+
+.smile-content {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.smile-content img {
+    padding-block-start: 200px;
+    block-size: 371px;
+    inline-size: 371px;
+}
+
+.smile-cabecera {
+    font: var(--headline2);
+    color:var(--black) ;
+}
+
+.smile-parragra {
+    font: var(--body1-regular);
+    color:var(--grey) ;
+}
